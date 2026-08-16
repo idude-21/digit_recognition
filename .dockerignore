@@ -1,0 +1,45 @@
+# Виртуальные окружения
+venv/
+env/
+.venv/
+backend/venv/
+frontend/node_modules/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Системные и временные файлы
+*.log
+*.tmp
+*.pid
+*.swp
+
+# Git
+.git/
+.gitignore
+.dockerignore
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Папки сборки фронтенда (если вы не хотите копировать их в контекст)
+frontend/build/
+frontend/dist/
+
+# Образы Docker (если вы сохраняете их локально)
+*.tar
+
+# Файлы документации (не нужны для сборки)
+*.md
+LICENSE
